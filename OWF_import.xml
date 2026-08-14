@@ -1,0 +1,1960 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>Wiki</sitename>
+    <base>http://localhost/mediawiki/index.php/Main_Page</base>
+    <generator>MediaWiki 1.15.3</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">Wiki</namespace>
+      <namespace key="5">Wiki talk</namespace>
+      <namespace key="6">File</namespace>
+      <namespace key="7">File talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="102">Property</namespace>
+      <namespace key="103">Property talk</namespace>
+      <namespace key="104">Type</namespace>
+      <namespace key="105">Type talk</namespace>
+      <namespace key="106">Form</namespace>
+      <namespace key="107">Form talk</namespace>
+      <namespace key="108">Concept</namespace>
+      <namespace key="109">Concept talk</namespace>
+      <namespace key="170">Filter</namespace>
+      <namespace key="171">Filter talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>MediaWiki:OWF.css</title>
+    <id>4298</id>
+    <revision>
+      <id>31803</id>
+      <timestamp>2010-12-10T20:27:50Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>more style moved from common</comment>
+      <text xml:space="preserve">.infobox {
+  width            : 30em              ;
+  font-size        : 90%               ; 
+  border           : 1px solid #aaaaaa ;
+  background-color : #f9f9f9           ;
+  color            : black             ;
+  margin-bottom    : 0.5em             ;
+  margin-left      : 1em               ;
+  padding          : 0.2em             ;
+  float            : right             ;
+  clear            : right             ;
+  text-align       : left              ; }
+
+.infoboxHeader {
+  text-align       : center  ;
+  background-color : #ccccff ; }
+
+.infobox td      { background-color : #efefff   }
+.infobox th      { background-color : #e0e0ff   }
+
+.infobox caption {
+   background-color : #ccccff ;
+   font-weight      : bold    ; }</text>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Smw import rdf</title>
+    <id>4395</id>
+    <revision>
+      <id>33822</id>
+      <timestamp>2011-01-22T07:07:02Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>rest from feature table</comment>
+      <text xml:space="preserve">http://www.w3.org/1999/02/22-rdf-syntax-ns#
+ datatype|Type:String
+ type|Type:Page
+ li|Type:Page
+ first|Type:Page
+ rest|Type:Page
+ _1|Type:Page
+ _2|Type:Page
+ _3|Type:Page
+ _4|Type:Page</text>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Smw import rdfs</title>
+    <id>4397</id>
+    <revision>
+      <id>33825</id>
+      <timestamp>2011-01-22T07:12:16Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>clean</comment>
+      <text xml:space="preserve">http://www.w3.org/2000/01/rdf-schema#
+ label|Type:String
+ comment|Type:Page
+ seeAlso|Type:Page
+ isDefinedby|Type:Page
+ domain|Type:Page
+ range|Type:Page
+ subClassOf|Type:Page
+ subPropertyOf|Type:Page</text>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Smw import owl</title>
+    <id>4398</id>
+    <revision>
+      <id>33892</id>
+      <timestamp>2011-01-22T10:00:45Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>SymmetricProperty|Category</comment>
+      <text xml:space="preserve">http://www.w3.org/2002/07/owl#
+ inverseOf|Type:Page
+ SymmetricProperty|Category
+ sameAs|Type:Page
+ equivalentClass|Type:Page
+ equivalentProperty|Type:Page
+ onProperty|Type:Page
+ hasValue|Type:Page
+ someValuesFrom|Type:Page
+ allValuesFrom|Type:Page
+ cardinality|Type:Page
+ minCardinality|Type:Page
+ maxCardinality|Type:Page
+ unionOf|Type:Page
+ intersectionOf|Type:Page
+ oneOf|Type:Page
+ complementOf|Type:Page
+ imports|Type:Page</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Box order</title>
+    <id>1865</id>
+    <revision>
+      <id>37200</id>
+      <timestamp>2011-03-16T09:56:44Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <text xml:space="preserve">{{Property
+|Rdf:datatype=Xsd:decimal
+|Rdfs:domain=Property,
+|Owl:SymmetricProperty=No
+|Box order=100
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Pagename</title>
+    <id>1873</id>
+    <revision>
+      <id>26584</id>
+      <timestamp>2010-08-19T07:45:11Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>|Rdf:datatype=Xsd:string</comment>
+      <text xml:space="preserve">{{Property
+|Rdf:datatype=Xsd:string
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Owl:DataRange</title>
+    <id>1883</id>
+    <revision>
+      <id>13298</id>
+      <timestamp>2009-08-24T13:27:47Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>http://www.w3.org/TR/owl-ref/#EnumeratedDatatype</comment>
+      <text xml:space="preserve">http://www.w3.org/TR/owl-ref/#EnumeratedDatatype</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Owl:FunctionalProperty</title>
+    <id>4447</id>
+    <revision>
+      <id>33918</id>
+      <timestamp>2011-01-22T15:49:05Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>{{Property |Rdf:datatype=Xsd:boolean |Rdfs:domain=Property,  |Box order=8.5 }}</comment>
+      <text xml:space="preserve">{{Property
+|Rdf:datatype=Xsd:boolean
+|Rdfs:domain=Property, 
+|Box order=8.5
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Owl:InverseFunctionalProperty</title>
+    <id>4448</id>
+    <revision>
+      <id>33919</id>
+      <timestamp>2011-01-22T15:49:15Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>{{Property |Rdf:datatype=Xsd:boolean |Rdfs:domain=Property,  |Box order=8.7 }}</comment>
+      <text xml:space="preserve">{{Property
+|Rdf:datatype=Xsd:boolean
+|Rdfs:domain=Property, 
+|Box order=8.7
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Owl:SymmetricProperty</title>
+    <id>2690</id>
+    <revision>
+      <id>33705</id>
+      <timestamp>2011-01-20T09:12:30Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>remove Equivalent URI</comment>
+      <text xml:space="preserve">{{Property
+|Rdf:datatype=Xsd:boolean
+|Rdfs:domain=Property, 
+|Owl:SymmetricProperty=No
+|Box order=8
+}}
+This should become a subclass of ObjectProperty</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Owl:TransitiveProperty</title>
+    <id>4446</id>
+    <revision>
+      <id>33917</id>
+      <timestamp>2011-01-22T15:48:56Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>{{Property |Rdf:datatype=Xsd:boolean |Rdfs:domain=Property,  |Box order=8.2 }}</comment>
+      <text xml:space="preserve">{{Property
+|Rdf:datatype=Xsd:boolean
+|Rdfs:domain=Property, 
+|Box order=8.2
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Owl:allValuesFrom</title>
+    <id>4439</id>
+    <revision>
+      <id>33951</id>
+      <timestamp>2011-01-23T15:23:15Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>|Rdf:datatype=Xsd:Name |Rdfs:domain=Owl:Restriction |Box order=35</comment>
+      <text xml:space="preserve">{{Property
+|Rdf:datatype=Xsd:Name
+|Rdfs:domain=Owl:Restriction
+|Box order=35
+}}
+[[Imported from::owl:allValuesFrom| ]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Owl:cardinality</title>
+    <id>4431</id>
+    <revision>
+      <id>33952</id>
+      <timestamp>2011-01-23T15:23:20Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>|Rdf:datatype=Xsd:decimal |Rdfs:domain=Owl:Restriction |Box order=37</comment>
+      <text xml:space="preserve">{{Property
+|Rdf:datatype=Xsd:decimal
+|Rdfs:domain=Owl:Restriction
+|Box order=37
+}}
+[[Imported from::owl:cardinality| ]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Owl:complementOf</title>
+    <id>4437</id>
+    <revision>
+      <id>33881</id>
+      <timestamp>2011-01-22T07:42:59Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>{{Property}}</comment>
+      <text xml:space="preserve">{{Property}}[[Imported from::owl:complementOf| ]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Owl:equivalentClass</title>
+    <id>4426</id>
+    <revision>
+      <id>33869</id>
+      <timestamp>2011-01-22T07:41:55Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>{{Property}}</comment>
+      <text xml:space="preserve">{{Property}}[[Imported from::owl:equivalentClass| ]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Owl:equivalentProperty</title>
+    <id>4427</id>
+    <revision>
+      <id>33883</id>
+      <timestamp>2011-01-22T07:44:17Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>|Rdf:datatype=Xsd:Name |Rdfs:domain=Property |Rdfs:range=Property |Box order=20</comment>
+      <text xml:space="preserve">{{Property
+|Rdf:datatype=Xsd:Name
+|Rdfs:domain=Property
+|Rdfs:range=Property
+|Box order=20
+}}
+[[Imported from::owl:equivalentProperty| ]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Owl:hasValue</title>
+    <id>4429</id>
+    <revision>
+      <id>33949</id>
+      <timestamp>2011-01-23T15:23:05Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>|Rdfs:domain=Owl:Restriction |Box order=32</comment>
+      <text xml:space="preserve">{{Property
+|Rdfs:domain=Owl:Restriction
+|Box order=32
+}}
+[[Imported from::owl:hasValue| ]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Owl:imports</title>
+    <id>4438</id>
+    <revision>
+      <id>33882</id>
+      <timestamp>2011-01-22T07:43:05Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>{{Property}}</comment>
+      <text xml:space="preserve">{{Property}}[[Imported from::owl:imports| ]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Owl:intersectionOf</title>
+    <id>4435</id>
+    <revision>
+      <id>33879</id>
+      <timestamp>2011-01-22T07:42:55Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>{{Property}}</comment>
+      <text xml:space="preserve">{{Property}}[[Imported from::owl:intersectionOf| ]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Owl:inverseOf</title>
+    <id>3471</id>
+    <revision>
+      <id>33724</id>
+      <timestamp>2011-01-20T09:56:06Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>[[Imported from::owl:inverseOf| ]]</comment>
+      <text xml:space="preserve">{{Property
+|Rdf:datatype=Xsd:Name
+|Rdfs:domain=Property
+|Rdfs:range=Property
+|Owl:SymmetricProperty=Yes
+|Box order=9
+}}
+[[Imported from::owl:inverseOf| ]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Owl:maxCardinality</title>
+    <id>4433</id>
+    <revision>
+      <id>33954</id>
+      <timestamp>2011-01-23T15:23:27Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>|Rdf:datatype=Xsd:decimal |Rdfs:domain=Owl:Restriction |Box order=39</comment>
+      <text xml:space="preserve">{{Property
+|Rdf:datatype=Xsd:decimal
+|Rdfs:domain=Owl:Restriction
+|Box order=39
+}}
+[[Imported from::owl:maxCardinality| ]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Owl:minCardinality</title>
+    <id>4432</id>
+    <revision>
+      <id>33958</id>
+      <timestamp>2011-01-23T15:27:42Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <text xml:space="preserve">{{Property
+|Rdf:datatype=Xsd:decimal
+|Rdfs:domain=Owl:Restriction
+|Box order=38
+}}
+[[Imported from::owl:minCardinality| ]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Owl:onProperty</title>
+    <id>4428</id>
+    <revision>
+      <id>33948</id>
+      <timestamp>2011-01-23T15:23:02Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>|Rdf:datatype=Xsd:Name |Rdfs:domain=Owl:Restriction |Rdfs:range=Property |Box order=30</comment>
+      <text xml:space="preserve">{{Property
+|Rdf:datatype=Xsd:Name
+|Rdfs:domain=Owl:Restriction
+|Rdfs:range=Property
+|Box order=30
+}}
+[[Imported from::owl:onProperty| ]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Owl:oneOf</title>
+    <id>4436</id>
+    <revision>
+      <id>33880</id>
+      <timestamp>2011-01-22T07:42:57Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>{{Property}}</comment>
+      <text xml:space="preserve">{{Property}}[[Imported from::owl:oneOf| ]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Owl:sameAs</title>
+    <id>4425</id>
+    <revision>
+      <id>33936</id>
+      <timestamp>2011-01-23T07:45:33Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>Box order</comment>
+      <text xml:space="preserve">{{Property
+|Rdf:datatype=Xsd:Name
+|Rdfs:domain=Owl:Thing
+|Box order=10
+}}
+[[Imported from::owl:sameAs| ]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Owl:someValuesFrom</title>
+    <id>4430</id>
+    <revision>
+      <id>33950</id>
+      <timestamp>2011-01-23T15:23:11Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>|Rdfs:domain=Owl:Restriction |Box order=33</comment>
+      <text xml:space="preserve">{{Property
+|Rdfs:domain=Owl:Restriction
+|Box order=33
+}}
+[[Imported from::owl:someValuesFrom| ]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Owl:unionOf</title>
+    <id>4434</id>
+    <revision>
+      <id>33878</id>
+      <timestamp>2011-01-22T07:42:53Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>{{Property}}</comment>
+      <text xml:space="preserve">{{Property}}[[Imported from::owl:unionOf| ]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Rdf:datatype</title>
+    <id>1882</id>
+    <revision>
+      <id>33708</id>
+      <timestamp>2011-01-20T09:17:36Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>[[Imported from::*r*df:datatype]]</comment>
+      <text xml:space="preserve">{{Property
+|Rdf:datatype=Xsd:string
+|Rdfs:domain=Property
+|Box order=2
+}}
+[[Allows value::Xsd:Name| ]][[Allows value::Xsd:decimal| ]][[Allows value::Xsd:string| ]][[Allows value::Xsd:anyURI| ]][[Allows value::Xsd:dateTime| ]][[Allows value::Xsd:boolean| ]]
+[[Imported from::rdf:datatype]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Rdf:first</title>
+    <id>4415</id>
+    <revision>
+      <id>33857</id>
+      <timestamp>2011-01-22T07:40:25Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>{{Property}}</comment>
+      <text xml:space="preserve">{{Property}}[[Imported from::rdf:first| ]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Rdf:li</title>
+    <id>4414</id>
+    <revision>
+      <id>33856</id>
+      <timestamp>2011-01-22T07:40:17Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>{{Property}}</comment>
+      <text xml:space="preserve">{{Property}}[[Imported from::rdf:li| ]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Rdf:rest</title>
+    <id>4416</id>
+    <revision>
+      <id>33858</id>
+      <timestamp>2011-01-22T07:40:27Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>{{Property}}</comment>
+      <text xml:space="preserve">{{Property}}[[Imported from::rdf:rest| ]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Rdf:type</title>
+    <id>4413</id>
+    <revision>
+      <id>33855</id>
+      <timestamp>2011-01-22T07:40:15Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>{{Property}}</comment>
+      <text xml:space="preserve">{{Property}}[[Imported from::rdf:type| ]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Rdfs:comment</title>
+    <id>4421</id>
+    <revision>
+      <id>33933</id>
+      <timestamp>2011-01-23T07:45:21Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>Box order</comment>
+      <text xml:space="preserve">{{Property
+|Rdf:datatype=Xsd:string
+|Rdfs:domain=Owl:Thing
+|Box order=4
+}}
+[[Imported from::rdfs:comment| ]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Rdfs:domain</title>
+    <id>1798</id>
+    <revision>
+      <id>33720</id>
+      <timestamp>2011-01-20T09:50:38Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>hide import</comment>
+      <text xml:space="preserve">{{Property
+|Rdfs:domain=Property
+|Owl:SymmetricProperty=No
+|Box order=4
+|Has_type=Page
+}}
+[[Imported from::rdfs:domain| ]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Rdfs:isDefinedby</title>
+    <id>4423</id>
+    <revision>
+      <id>33940</id>
+      <timestamp>2011-01-23T07:51:46Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>|Rdf:datatype=Xsd:anyURI</comment>
+      <text xml:space="preserve">{{Property
+|Rdf:datatype=Xsd:anyURI
+|Rdfs:domain=Owl:Thing
+|Box order=8
+}}
+[[Imported from::rdfs:isDefinedby| ]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Rdfs:label</title>
+    <id>4409</id>
+    <revision>
+      <id>33932</id>
+      <timestamp>2011-01-23T07:45:18Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>Box order</comment>
+      <text xml:space="preserve">{{Property
+|Rdf:datatype=Xsd:string
+|Rdfs:domain=Owl:Thing
+|Box order=2
+}}
+[[Imported from::rdfs:label| ]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Rdfs:range</title>
+    <id>1868</id>
+    <revision>
+      <id>33721</id>
+      <timestamp>2011-01-20T09:50:40Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>hide import</comment>
+      <text xml:space="preserve">{{Property
+|Rdfs:domain=Property
+|Owl:SymmetricProperty=No
+|Box order=6
+|Has_type=Page
+}}
+[[Imported from::rdfs:range| ]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Rdfs:seeAlso</title>
+    <id>4422</id>
+    <revision>
+      <id>33934</id>
+      <timestamp>2011-01-23T07:45:25Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>Box order</comment>
+      <text xml:space="preserve">{{Property
+|Rdf:datatype=Xsd:Name
+|Rdfs:domain=Owl:Thing
+|Box order=6
+}}
+[[Imported from::rdfs:seeAlso| ]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Rdfs:subClassOf</title>
+    <id>4424</id>
+    <revision>
+      <id>33867</id>
+      <timestamp>2011-01-22T07:41:48Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>{{Property}}</comment>
+      <text xml:space="preserve">{{Property}}[[Imported from::rdfs:subClassOf| ]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Rdfs:subPropertyOf</title>
+    <id>4410</id>
+    <revision>
+      <id>33817</id>
+      <timestamp>2011-01-21T21:52:07Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>[[Imported from::rdfs:subPropertyOf| ]]</comment>
+      <text xml:space="preserve">{{Property
+|Rdf:datatype=Xsd:Name
+|Rdfs:domain=Property
+|Rdfs:range=Property
+|Box order=7
+}}
+[[Imported from::rdfs:subPropertyOf| ]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Form:Category:owl:Class</title>
+    <id>4604</id>
+    <revision>
+      <id>36525</id>
+      <timestamp>2011-03-06T15:25:14Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>below after &quot;Category:&quot; namespace</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the 'owl:Class' form.
+To add an owl:Class with this form, enter the class name below after &quot;'''''Category:'''''&quot; namespace;
+if a class with that name already exists, you will be sent to a form to edit that class .
+
+{{#forminput:form=Category:owl:Class}}
+
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{{{for template|owl:Class|label=owl:Class}}}
+{| class=&quot;formtable&quot;
+|-
+! rdfs:subClassOf:
+| {{{field|Rdfs:subClassOf|autocomplete on category=Property|list}}}
+|-
+! owl:equivalentClass:
+| {{{field|Owl:equivalentClass|list}}}
+|-
+! owl:unionOf:
+| {{{field|Owl:unionOf|list}}}
+|-
+! owl:intersectionOf:
+| {{{field|Owl:intersectionOf|list}}}
+|-
+! owl:oneOf:
+| {{{field|Owl:oneOf|list}}}
+|-
+! owl:complementOf:
+| {{{field|Owl:complementOf|list}}}
+|-
+! owl:disjointWith:
+| {{{field|Owl:disjointWith|list}}}
+|}
+{{{end template}}}
+
+'''Free text:'''
+
+{{{standard input|free text}}}
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Form:Owl:DatatypeProperty</title>
+    <id>4609</id>
+    <revision>
+      <id>36796</id>
+      <timestamp>2011-03-08T15:52:33Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>preceded by the &quot;'''Property:'''&quot; namespace</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the 'owl:DatatypeProperty' form.
+To add a page with this form, enter the page name below, preceded by the &quot;'''Property:'''&quot; namespace;
+if a page with that name already exists, you will be sent to a form to edit that page.
+
+{{#forminput:form=owl:DatatypeProperty}}
+
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{{{for template|owl:DatatypeProperty|label=owl:DatatypeProperty}}}
+{| class=&quot;formtable&quot;
+|-
+! rdfs:domain:
+| {{{field|Rdfs:domain|autocomplete on category=owl:Class|list}}}
+|-
+! rdfs:range:
+| {{{field|Rdfs:range|values=Xsd:decimal, Xsd:string, Xsd:dateTime, Xsd:boolean}}}
+|-
+! rdfs:subPropertyOf:
+| {{{field|Rdfs:subPropertyOf|autocomplete on category=Property|list}}}
+|-
+! owl:equivalentProperty:
+| {{{field|Owl:equivalentProperty|autocomplete on category=Property|list}}}
+|-
+! Box order:
+| {{{field|Box order}}}
+|}
+{{{end template}}}
+
+'''Free text:'''
+
+{{{standard input|free text}}}
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Form:Owl:ObjectProperty</title>
+    <id>4593</id>
+    <revision>
+      <id>36807</id>
+      <timestamp>2011-03-08T20:27:22Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>, preceded by the &quot;'''Property:'''&quot; namespace;</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the 'owl:ObjectProperty' form.
+To add a page with this form, enter the page name below, preceded by the &quot;'''Property:'''&quot; namespace;
+if a page with that name already exists, you will be sent to a form to edit that page.
+
+{{#forminput:form=owl:ObjectProperty}}
+
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{{{for template|owl:ObjectProperty|label=owl:ObjectProperty}}}
+{| class=&quot;formtable&quot;
+|-
+! rdfs:domain:
+| {{{field|Rdfs:domain|autocomplete on category=Property|list}}}
+|-
+! rdfs:range:
+| {{{field|Rdfs:range|autocomplete on category=Property|list}}}
+|-
+! rdfs:subPropertyOf:
+| {{{field|Rdfs:subPropertyOf|autocomplete on category=Property|list}}}
+|-
+! owl:SymmetricProperty:
+| {{{field|Owl:SymmetricProperty|input type=checkboxes|values=Yes,No}}}
+|-
+! owl:TransitiveProperty:
+| {{{field|Owl:TransitiveProperty|input type=checkboxes|values=Yes,No}}}
+|-
+! owl:FunctionalProperty:
+| {{{field|Owl:FunctionalProperty|input type=checkboxes|values=Yes,No}}}
+|-
+! owl:InverseFunctionalProperty:
+| {{{field|Owl:InverseFunctionalProperty|input type=checkboxes|values=Yes,No}}}
+|-
+! owl:inverseOf:
+| {{{field|Owl:inverseOf|autocomplete on category=Property|list}}}
+|-
+! owl:equivalentProperty:
+| {{{field|Owl:equivalentProperty|autocomplete on category=Property|list}}}
+|-
+! Box order:
+| {{{field|Box order}}}
+|}
+{{{end template}}}
+
+'''Free text:'''
+
+{{{standard input|free text}}}
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Form:Owl:Restriction</title>
+    <id>4454</id>
+    <revision>
+      <id>33960</id>
+      <timestamp>2011-01-23T15:28:35Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>minCardinality</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the 'Owl:Restriction' form.
+To add a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page.
+
+{{#forminput:form=Owl:Restriction}}
+
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{{{for template|Owl:Restriction|label=Owl:Restriction}}}
+{| class=&quot;formtable&quot;
+|-
+! Owl:onProperty:
+| {{{field|Owl:onProperty|autocomplete on category=Property|list}}}
+|-
+! Owl:hasValue:
+| {{{field|Owl:hasValue}}}
+|-
+! Owl:someValuesFrom:
+| {{{field|Owl:someValuesFrom}}}
+|-
+! Owl:allValuesFrom:
+| {{{field|Owl:allValuesFrom|list}}}
+|-
+! Owl:cardinality:
+| {{{field|Owl:cardinality}}}
+|-
+! Owl:minCardinality:
+| {{{field|Owl:minCardinality}}}
+|-
+! Owl:maxCardinality:
+| {{{field|Owl:maxCardinality}}}
+|}
+{{{end template}}}
+
+'''Free text:'''
+
+{{{standard input|free text}}}
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Form:Owl:Thing</title>
+    <id>4451</id>
+    <revision>
+      <id>33938</id>
+      <timestamp>2011-01-23T07:46:04Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>Created page with '&lt;noinclude&gt; This is the 'Owl:Thing' form. To add a page with this form, enter the page name below; if a page with that name already exists, you will be sent to a form to edit tha…'</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the 'Owl:Thing' form.
+To add a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page.
+
+{{#forminput:form=Owl:Thing}}
+
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{{{for template|Owl:Thing|label=Owl:Thing}}}
+{| class=&quot;formtable&quot;
+|-
+! Rdfs:label:
+| {{{field|Rdfs:label}}}
+|-
+! Rdfs:comment:
+| {{{field|Rdfs:comment}}}
+|-
+! Rdfs:seeAlso:
+| {{{field|Rdfs:seeAlso|list}}}
+|-
+! Rdfs:isDefinedby:
+| {{{field|Rdfs:isDefinedby|list}}}
+|-
+! Owl:sameAs:
+| {{{field|Owl:sameAs|list}}}
+|}
+{{{end template}}}
+
+'''Free text:'''
+
+{{{standard input|free text}}}
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Form:Rdfs:Resource</title>
+    <id>4594</id>
+    <revision>
+      <id>36455</id>
+      <timestamp>2011-03-03T14:09:25Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>lowercase props on form display</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the 'Rdfs:Resource' form.
+To add a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page.
+
+{{#forminput:form=Rdfs:Resource}}
+
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{{{for template|Rdfs:Resource|label=rdfs:Resource}}}
+{| class=&quot;formtable&quot;
+|-
+! rdfs:label:
+| {{{field|Rdfs:label}}}
+|-
+! rdfs:comment:
+| {{{field|Rdfs:comment}}}
+|-
+! rdfs:seeAlso:
+| {{{field|Rdfs:seeAlso|list}}}
+|-
+! rdfs:isDefinedby:
+| {{{field|Rdfs:isDefinedby|list}}}
+|-
+! owl:sameAs:
+| {{{field|Owl:sameAs|list}}}
+|}
+{{{end template}}}
+
+'''Free text:'''
+
+{{{standard input|free text}}}
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:BoxHeaderStyle</title>
+    <id>878</id>
+    <revision>
+      <id>6009</id>
+      <timestamp>2008-12-31T22:45:47Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>copy from example</comment>
+      <text xml:space="preserve">style=&quot;text-align: center; background-color:#ccccff;&quot; colspan=&quot;2&quot;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:BoxRow</title>
+    <id>883</id>
+    <revision>
+      <id>6050</id>
+      <timestamp>2009-01-02T10:59:01Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>attempt</comment>
+      <text xml:space="preserve">{{#ifeq:{{{{{{1}}}|}}}|||{{HeadRow|{{{{1}}}}}[[{{{{1}}}::{{{{{{{1}}}|}}}]]}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:BoxTableStyle</title>
+    <id>877</id>
+    <revision>
+      <id>6007</id>
+      <timestamp>2008-12-31T22:44:21Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>copy from example</comment>
+      <text xml:space="preserve">style=&quot;width: 30em; font-size: 90%; border: 1px solid #aaaaaa; background-color: #f9f9f9; color: black; margin-bottom: 0.5em; margin-left: 1em; padding: 0.2em; float: right; clear: right; text-align:left;&quot;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Category</title>
+    <id>1889</id>
+    <revision>
+      <id>37637</id>
+      <timestamp>2011-03-23T13:22:39Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>remove   {{OntoXML}}</comment>
+      <text xml:space="preserve">{| style=&quot;width: 30em; font-size: 90%; border: 1px solid #aaaaaa; background-color: #f9f9f9; color: black; margin-bottom: 0.5em; margin-left: 1em; padding: 0.2em; float: right; clear: right; text-align:left;&quot;
+! style=&quot;text-align: center; background-color:#ccccff;&quot; colspan=&quot;2&quot; |&lt;big&gt;[[Special:Categories|Category]] data&lt;/big&gt; {{
+#if:{{{SFForm|}}}|{{#sffeditlink:{{{SFForm|}}}|{{FULLPAGENAME}}|form}}|}}{{
+InformboxRow | Property=Ontology| Value={{{Ontology|}}}}}
+|}
+__ToC__
+= Members =</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Columnize properties</title>
+    <id>488</id>
+    <revision>
+      <id>2420</id>
+      <timestamp>2008-09-10T07:50:22Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>[[Template:Columize properties]] moved to [[Template:Columnize properties]]: spelling</comment>
+      <text xml:space="preserve">| ?{{{1}}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:FormCode</title>
+    <id>1864</id>
+    <revision>
+      <id>37635</id>
+      <timestamp>2011-03-23T12:27:19Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>no leading spaces</comment>
+      <text xml:space="preserve">&lt;nowiki&gt;&amp;lt;noinclude&amp;gt;
+This is the '&lt;/nowiki&gt;{{{1|}}}&lt;nowiki&gt;' form.
+To add a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page. 
+ 
+{{#forminput:form=&lt;/nowiki&gt;{{{1|}}}&lt;nowiki&gt;}}
+ 
+&amp;lt;/noinclude&amp;gt;&amp;lt;includeonly&amp;gt;
+{{{for template|&lt;/nowiki&gt;{{{1|}}}&lt;nowiki&gt;|label=&lt;/nowiki&gt;{{{1|}}}&lt;nowiki&gt;}}}
+{| class=&lt;/nowiki&gt;&quot;formtable&quot;{{#ask:[[Rdfs:domain::Category:{{{1|}}}]]|?Pagename|?Box order|sort=Box order|link=none|format=template|template=FormRow}}&lt;nowiki&gt;
+|}
+{{{end template}}}
+
+'''Free text:''' 
+
+{{{standard input|free text}}}
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+&amp;lt;/includeonly&amp;gt;&lt;/nowiki&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:FormRow</title>
+    <id>1863</id>
+    <revision>
+      <id>13270</id>
+      <timestamp>2009-08-24T11:58:16Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <text xml:space="preserve">{{#if:{{{2|}}}|{{FormRowHead|{{{2|}}}}}{{FormRowRange|{{{2|}}}}}}}}}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:FormRowHead</title>
+    <id>1862</id>
+    <revision>
+      <id>37589</id>
+      <timestamp>2011-03-22T20:58:55Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>no &lt;span&gt;&lt;/span&gt;</comment>
+      <text xml:space="preserve">&lt;nowiki&gt;
+|-
+! &lt;/nowiki&gt;{{{1}}}&lt;nowiki&gt;:
+| {{{field|&lt;/nowiki&gt;{{{1}}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:FormRowRange</title>
+    <id>1871</id>
+    <revision>
+      <id>37592</id>
+      <timestamp>2011-03-22T21:05:26Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <text xml:space="preserve">{{
+#if:{{ShowVal|{{{1|None given}}}|Allows value}}|&lt;nowiki&gt;|&lt;/nowiki&gt;values={{ShowValTxt|{{{1|None given}}}|Allows value}}}}{{
+#if:{{ShowVal|{{{1|None given}}}|Rdfs:range}}|&lt;nowiki&gt;|&lt;/nowiki&gt;autocomplete on category={{ShowValName|{{{1|None given}}}|Rdfs:range}}}}{{
+#ifeq:{{ShowVal|{{{1|None given}}}|Rdf:datatype}}|Xsd:Name|&lt;nowiki&gt;|&lt;/nowiki&gt;list}}{{
+#ifeq:{{ShowVal|{{{1|None given}}}|Rdf:datatype}}|Xsd:dateTime|&lt;nowiki&gt;|&lt;/nowiki&gt;input type=datetime}}{{
+#ifeq:{{ShowVal|{{{1|None given}}}|Rdf:datatype}}|Xsd:boolean|&lt;nowiki&gt;|&lt;/nowiki&gt;input type=checkboxes&lt;nowiki&gt;|&lt;/nowiki&gt;values=Yes,No}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:FormXML</title>
+    <id>4642</id>
+    <revision>
+      <id>37532</id>
+      <timestamp>2011-03-22T10:15:35Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>copy form row</comment>
+      <text xml:space="preserve">{{#if:{{{2|}}}|{{FormRowHead|{{{2|}}}}}{{FormRowRange|{{{2|}}}}}}}}}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:GetVals</title>
+    <id>1955</id>
+    <revision>
+      <id>14107</id>
+      <timestamp>2009-08-28T11:56:06Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>for multiple values: |format=list|link=none|sep=,</comment>
+      <text xml:space="preserve">&lt;includeonly&gt;{{#ask:[[{{{1}}}]]|?{{{2}}}|headers=hide|format=list|link=none|sep=,}}&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:HeadRow</title>
+    <id>780</id>
+    <revision>
+      <id>4894</id>
+      <timestamp>2008-11-25T08:21:28Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>&lt;span&gt;&lt;/span&gt; to force last space after |</comment>
+      <text xml:space="preserve">&lt;span&gt;&lt;/span&gt;
+|-
+! {{{1}}}
+| &lt;span&gt;&lt;/span&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:ID</title>
+    <id>491</id>
+    <revision>
+      <id>2436</id>
+      <timestamp>2008-09-10T09:51:28Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>hide</comment>
+      <text xml:space="preserve">[[ID::{{PAGENAME}}| ]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:IDNEQ</title>
+    <id>493</id>
+    <revision>
+      <id>2454</id>
+      <timestamp>2008-09-10T10:44:24Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>[[ID::!{{{1}}}]]</comment>
+      <text xml:space="preserve"> [[ID::!{{{1}}}]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:IfSymmetricIn</title>
+    <id>2692</id>
+    <revision>
+      <id>19504</id>
+      <timestamp>2009-12-07T15:05:20Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <text xml:space="preserve">&lt;includeonly&gt;{{#if: {{Symmetric|{{{1|}}}}} | {{ #if: {{#ask:[[{{{1|}}}::{{PAGENAME}}]]}} |{{{2|}}}}}}}&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:InferPageProp</title>
+    <id>3469</id>
+    <revision>
+      <id>26404</id>
+      <timestamp>2010-08-17T09:46:58Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <text xml:space="preserve">{{#if:{{
+  Symmetric|{{{1|}}}}}|{{
+  #ask:[[{{{1|}}}::{{PAGENAME}}]]}}
+}}
+{{#if:{{
+  #ask:[[Owl:inverseOf::{{{1|}}}]]}}|{{
+  #ask:[[{{#ask:[[Owl:inverseOf::{{{1|}}}]]|link=none}}::{{PAGENAME}}]]}}
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:InferboxStart</title>
+    <id>1927</id>
+    <revision>
+      <id>13895</id>
+      <timestamp>2009-08-26T08:46:27Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>adapt from informbox</comment>
+      <text xml:space="preserve">{| style=&quot;width: 30em; font-size: 90%; border: 1px solid #aaaaaa; background-color: #f9f9f9; color: black; margin-bottom: 0.5em; margin-left: 1em; padding: 0.2em; float: right; clear: right; text-align:left;&quot;
+! style=&quot;text-align: center; background-color:#ccccff;&quot; colspan=&quot;2&quot; |&lt;big&gt;[[:Category:{{{1|none given}}} |{{{1|none given}}}]] inferences&lt;/big&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:InfoRowArray</title>
+    <id>781</id>
+    <revision>
+      <id>4626</id>
+      <timestamp>2008-11-19T14:20:28Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <text xml:space="preserve">|-
+! {{{1}}}
+|</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:InfoTableStart</title>
+    <id>921</id>
+    <revision>
+      <id>6519</id>
+      <timestamp>2009-01-22T12:46:37Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>{{InfoTableStart3}}</comment>
+      <text xml:space="preserve">{{InfoTableStart1}}{{{Type}}}{{InfoTableStart2}}{{{Type}}}{{InfoTableStart3}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:InfoTableStart1</title>
+    <id>923</id>
+    <revision>
+      <id>7602</id>
+      <timestamp>2009-03-01T20:46:52Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>class attribute</comment>
+      <text xml:space="preserve">{| class=&quot;infobox&quot;
+! class=&quot;infoboxHeader&quot; colspan=&quot;2&quot; |&lt;big&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:InfoTableStart2</title>
+    <id>924</id>
+    <revision>
+      <id>6515</id>
+      <timestamp>2009-01-22T12:44:11Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>moved from Task template</comment>
+      <text xml:space="preserve"> data &lt;/big&gt;&lt;small&gt;[[Special:EditData/</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:InfoTableStart3</title>
+    <id>925</id>
+    <revision>
+      <id>6518</id>
+      <timestamp>2009-01-22T12:46:29Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>moved from Task template</comment>
+      <text xml:space="preserve">/{{FULLPAGENAME}}|form]]&lt;/small&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:InfoboxRow</title>
+    <id>1778</id>
+    <revision>
+      <id>12575</id>
+      <timestamp>2009-08-03T06:56:39Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>{{{{{{2}}}}}}</comment>
+      <text xml:space="preserve">{{#ifeq:{{{2|}}}|||{{HeadRow|{{{2|}}}}}[[{{{2|}}}::{{{{{{2}}}}}}]]}}{{{{{{2}}}}}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:InformboxRow</title>
+    <id>1782</id>
+    <revision>
+      <id>25023</id>
+      <timestamp>2010-06-23T17:34:34Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <text xml:space="preserve">&lt;includeonly&gt;{{
+  #if:
+    {{{Value|}}}|{{
+    InformboxRowHead|{{{Property|}}}}}{{
+      #arraymap:{{{Value|}}}|,|x|[[{{{Property|}}}::x]]}}{{
+      #if:{{InferPageProp|{{{Property|}}}}}|, }}|{{
+    #if:{{InferPageProp|{{{
+      Property|}}}}}|{{
+      InformboxRowHead|{{{Property|}}}}}}}}}{{
+  #if:{{InferPageProp|{{{Property|}}}}}|&lt;span&gt; &lt;/span&gt;{{InferPageProp|{{{Property|}}}}}}}&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:InformboxRowCode</title>
+    <id>1796</id>
+    <revision>
+      <id>12682</id>
+      <timestamp>2009-08-05T12:36:47Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>1</comment>
+      <text xml:space="preserve">&lt;nowiki&gt;{{
+InformboxRow | Property=&lt;/nowiki&gt;{{{1|No property given}}}&lt;nowiki&gt; | Value={{{&lt;/nowiki&gt;{{{1|No property given}}}&lt;nowiki&gt;|}}}}}&lt;/nowiki&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:InformboxRowHead</title>
+    <id>1793</id>
+    <revision>
+      <id>12667</id>
+      <timestamp>2009-08-05T10:35:38Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>no property namespace in link</comment>
+      <text xml:space="preserve">&lt;span&gt;&lt;/span&gt;
+|-
+! [[Property:{{{1|Unnamed property}}}|{{{1|Unnamed property}}}]]
+| &lt;span&gt;&lt;/span&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:InformboxStart</title>
+    <id>1781</id>
+    <revision>
+      <id>23415</id>
+      <timestamp>2010-05-08T10:13:24Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>link as &quot;form&quot;</comment>
+      <text xml:space="preserve">{| style=&quot;width: 30em; font-size: 90%; border: 1px solid #aaaaaa; background-color: #f9f9f9; color: black; margin-bottom: 0.5em; margin-left: 1em; padding: 0.2em; float: right; clear: right; text-align:left;&quot;
+! style=&quot;text-align: center; background-color:#ccccff;&quot; colspan=&quot;2&quot; |&lt;big&gt;[[:Category:{{{1|none given}}} |{{{1|none given}}}]] data&lt;/big&gt; {{#if:{{{1|}}}|[[Special:FormEdit/{{{1|}}}/{{FULLPAGENAME}}|form]]|}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Invert-property</title>
+    <id>52</id>
+    <revision>
+      <id>9390</id>
+      <timestamp>2009-04-29T09:58:12Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <text xml:space="preserve">{{#ifeq:{{#ask:[[{{{1}}}::{{PAGENAMEE}}]]|link=none|sep={{Invert-property/Separator|{{{2}}}}}}}|||[[{{{2}}}::{{#ask:[[{{{1}}}::{{PAGENAMEE}}]]|link=none|sep={{Invert-property/Separator|{{{2}}}}}}}| 
+]]}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Invert-property/Separator</title>
+    <id>53</id>
+    <revision>
+      <id>3436</id>
+      <timestamp>2008-10-07T05:08:00Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>category removed</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;Template that provide a separator, avoids parsing problems,&lt;/noinclude&gt;| ]][[{{{1}}}::</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:JustName</title>
+    <id>4650</id>
+    <revision>
+      <id>37628</id>
+      <timestamp>2011-03-23T11:17:58Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>: back</comment>
+      <text xml:space="preserve">{{#ask:[[:{{{1|}}}]]|?Pagename|headers=hide}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:OntoXML</title>
+    <id>4462</id>
+    <revision>
+      <id>37545</id>
+      <timestamp>2011-03-22T11:01:21Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>|{{PAGENAME}}</comment>
+      <text xml:space="preserve">= XML import code=
+
+ &lt;mediawiki xmlns=&quot;http://www.mediawiki.org/xml/export-0.3/&quot;
+           xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;
+           xsi:schemaLocation=&quot;http://www.mediawiki.org/xml/export-0.3/
+           http://www.mediawiki.org/xml/export-0.3.xsd&quot; version=&quot;0.3&quot;
+           xml:lang=&quot;en&quot;&gt;
+   {{OntoXMLClass|{{PAGENAME}}}}
+ &lt;/mediawiki&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Owl:Class</title>
+    <id>4606</id>
+    <revision>
+      <id>37554</id>
+      <timestamp>2011-03-22T11:48:46Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>[[Pagename::{{PAGENAME}}| ]]</comment>
+      <text xml:space="preserve">{{InformboxStart|owl:Class}}{{
+InformboxRow|Property=rdfs:subClassOf|Value={{{rdfs:subClassOf|}}}}}{{
+InformboxRow|Property=owl:equivalentClass|Value={{{owl:equivalentClass|}}}}}{{
+InformboxRow|Property=owl:unionOf|Value={{{owl:unionOf|}}}}}{{
+InformboxRow|Property=owl:intersectionOf|Value={{{owl:intersectionOf|}}}}}{{
+InformboxRow|Property=owl:oneOf|Value={{{owl:oneOf|}}}}}{{
+InformboxRow|Property=owl:complementOf|Value={{{owl:complementOf|}}}}}{{
+InformboxRow|Property=owl:disjointWith|Value={{{owl:disjointWith|}}}}}
+|}
+[[Category:owl:Class]]
+[[rdf:type::Category:owl:Class| ]]
+[[Pagename::{{PAGENAME}}| ]]
+{{Category}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Owl:DatatypeProperty</title>
+    <id>4611</id>
+    <revision>
+      <id>36806</id>
+      <timestamp>2011-03-08T16:26:30Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <text xml:space="preserve">[[Category:Property]][[Category:owl:DatatypeProperty]]{{
+InformboxStart|owl:DatatypeProperty}}{{
+#if:{{{Rdfs:domain|}}}|{{#sffheadrow:Rdfs:domain}}{{#arraymap:{{{Rdfs:domain|}}}|,|x|[[Rdfs:domain::Category:x]]}}}}{{
+#if:{{{Rdfs:range|}}}|{{#sffheadrow:Rdfs:range}}{{#arraymap:{{{Rdfs:range|}}}|,|x|[[Rdfs:range::x]]}}}}{{
+#if:{{{Rdfs:subPropertyOf|}}}|{{#sffheadrow:Rdfs:subPropertyOf}}{{#arraymap:{{{Rdfs:subPropertyOf|}}}|,|x|[[Rdfs:subPropertyOf::Property:x]]}}}}{{
+#if:{{{Owl:equivalentProperty|}}}|{{#sffheadrow:Owl:equivalentProperty}}{{#arraymap:{{{Owl:equivalentProperty|}}}|,|x|[[Owl:equivalentProperty::Property:x]]}}}}{{
+#if:{{{Box order|}}}|{{#sffheadrow:Box order}}[[Box order::{{{Box order|}}}]]|}}
+|}[[Pagename::{{PAGENAME}}| ]]{{
+#ifeq:{{{Rdfs:range|}}}|Xsd:decimal|[[Has type::Number| ]]}}{{
+#ifeq:{{{Rdfs:range|}}}|Xsd:string|[[Has type::String| ]]}}{{
+#ifeq:{{{Rdfs:range|}}}|Xsd:dateTime|[[Has type::Date| ]]}}{{
+#ifeq:{{{Rdfs:range|}}}|Xsd:boolean|[[Has type::Boolean| ]]}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Owl:Restriction</title>
+    <id>4453</id>
+    <revision>
+      <id>33959</id>
+      <timestamp>2011-01-23T15:28:16Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>minCardinality</comment>
+      <text xml:space="preserve">[[Category:Owl:Restriction]]{{
+InformboxStart|Owl:Restriction}}{{
+InformboxRow | Property=Owl:onProperty | Value={{{Owl:onProperty|}}}}}{{
+InformboxRow | Property=Owl:hasValue | Value={{{Owl:hasValue|}}}}}{{
+InformboxRow | Property=Owl:someValuesFrom | Value={{{Owl:someValuesFrom|}}}}}{{
+InformboxRow | Property=Owl:allValuesFrom | Value={{{Owl:allValuesFrom|}}}}}{{
+InformboxRow | Property=Owl:cardinality | Value={{{Owl:cardinality|}}}}}{{
+InformboxRow | Property=Owl:minCardinality | Value={{{Owl:minCardinality|}}}}}{{
+InformboxRow | Property=Owl:maxCardinality | Value={{{Owl:maxCardinality|}}}}}
+|}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Owl:Thing</title>
+    <id>4450</id>
+    <revision>
+      <id>33937</id>
+      <timestamp>2011-01-23T07:45:54Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>gen</comment>
+      <text xml:space="preserve">[[Category:Owl:Thing]]{{
+InformboxStart|Owl:Thing}}{{
+InformboxRow | Property=Rdfs:label | Value={{{Rdfs:label|}}}}}{{
+InformboxRow | Property=Rdfs:comment | Value={{{Rdfs:comment|}}}}}{{
+InformboxRow | Property=Rdfs:seeAlso | Value={{{Rdfs:seeAlso|}}}}}{{
+InformboxRow | Property=Rdfs:isDefinedby | Value={{{Rdfs:isDefinedby|}}}}}{{
+InformboxRow | Property=Owl:sameAs | Value={{{Owl:sameAs|}}}}}
+|}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Property</title>
+    <id>607</id>
+    <revision>
+      <id>33913</id>
+      <timestamp>2011-01-22T15:43:46Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>remaining checkbox properties</comment>
+      <text xml:space="preserve">[[Category:Property]]{{
+InformboxStart|Property}}{{
+#if:{{{Rdf:datatype|}}}|{{#sffheadrow:Rdf:datatype}}[[Rdf:datatype::{{{Rdf:datatype|}}}]]|}}{{
+#if:{{{Rdfs:domain|}}}|{{#sffheadrow:Rdfs:domain}}{{#arraymap:{{{Rdfs:domain|}}}|,|x|[[Rdfs:domain::Category:x]]}}}}{{
+#if:{{{Rdfs:range|}}}|{{#sffheadrow:Rdfs:range}}{{#arraymap:{{{Rdfs:range|}}}|,|x|[[Rdfs:range::Category:x]][[Has default form::x| ]]}}}}{{
+#if:{{{Rdfs:subPropertyOf|}}}|{{#sffheadrow:Rdfs:subPropertyOf}}{{#arraymap:{{{Rdfs:subPropertyOf|}}}|,|x|[[Rdfs:subPropertyOf::Property:x]]}}}}{{
+#if:{{{Owl:SymmetricProperty|}}}|{{#sffheadrow:Owl:SymmetricProperty}}[[Owl:SymmetricProperty::{{{Owl:SymmetricProperty|}}}]]|}}{{
+#ifeq:{{{Owl:SymmetricProperty|}}}|Yes|[[Category:Owl:SymmetricProperty]][[Rdf:type::Category:Owl:SymmetricProperty]]|}}{{
+#if:{{{Owl:TransitiveProperty|}}}|{{#sffheadrow:Owl:TransitiveProperty}}[[Owl:TransitiveProperty::{{{Owl:TransitiveProperty|}}}]]|}}{{
+#ifeq:{{{Owl:TransitiveProperty|}}}|Yes|[[Category:Owl:TransitiveProperty]][[Rdf:type::Category:Owl:TransitiveProperty]]|}}{{
+#if:{{{Owl:FunctionalProperty|}}}|{{#sffheadrow:Owl:FunctionalProperty}}[[Owl:FunctionalProperty::{{{Owl:FunctionalProperty|}}}]]|}}{{
+#ifeq:{{{Owl:FunctionalProperty|}}}|Yes|[[Category:Owl:FunctionalProperty]][[Rdf:type::Category:Owl:FunctionalProperty]]|}}{{
+#if:{{{Owl:InverseFunctionalProperty|}}}|{{#sffheadrow:Owl:InverseFunctionalProperty}}[[Owl:InverseFunctionalProperty::{{{Owl:InverseFunctionalProperty|}}}]]|}}{{
+#ifeq:{{{Owl:InverseFunctionalProperty|}}}|Yes|[[Category:Owl:InverseFunctionalProperty]][[Rdf:type::Category:Owl:InverseFunctionalProperty]]|}}{{
+#if:{{{Owl:inverseOf|}}}|{{#sffheadrow:Owl:inverseOf}}[[Owl:inverseOf::{{{Owl:inverseOf|}}}]]|}}{{
+#if:{{{Owl:equivalentProperty|}}}|{{#sffheadrow:Owl:equivalentProperty}}{{#arraymap:{{{Owl:equivalentProperty|}}}|,|x|[[Owl:equivalentProperty::Property:x]]}}}}{{
+#if:{{{Box order|}}}|{{#sffheadrow:Box order}}[[Box order::{{{Box order|}}}]]|}}
+|}[[Pagename::{{PAGENAME}}| ]]{{
+#ifeq:{{{Rdf:datatype|}}}|Xsd:Name|[[Has type::Page| ]]}}{{
+#ifeq:{{{Rdf:datatype|}}}|Xsd:decimal|[[Has type::Number| ]]}}{{
+#ifeq:{{{Rdf:datatype|}}}|Xsd:string|[[Has type::String| ]]}}{{
+#ifeq:{{{Rdf:datatype|}}}|Xsd:anyURI|[[Has type::URL| ]]}}{{
+#ifeq:{{{Rdf:datatype|}}}|Xsd:dateTime|[[Has type::Date| ]]}}{{
+#ifeq:{{{Rdf:datatype|}}}|Xsd:boolean|[[Has type::Boolean| ]]}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:ShowProp</title>
+    <id>2645</id>
+    <revision>
+      <id>19166</id>
+      <timestamp>2009-11-30T16:12:21Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>adapt Email</comment>
+      <text xml:space="preserve">{{#ask:[[{{PAGENAME}}]] | link=none | maillabel=- | headers=hide | ? {{{1|}}}}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:ShowVal</title>
+    <id>1872</id>
+    <revision>
+      <id>13284</id>
+      <timestamp>2009-08-24T12:23:47Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>no |link=none</comment>
+      <text xml:space="preserve">&lt;includeonly&gt;{{#ask:[[Property:{{{1}}}]]|?{{{2}}}|headers=hide}}&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Symmetric</title>
+    <id>2691</id>
+    <revision>
+      <id>19491</id>
+      <timestamp>2009-12-07T14:41:17Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>default parameter</comment>
+      <text xml:space="preserve">&lt;includeonly&gt;{{ #ask:[[Property:{{{1|}}}]] [[Owl:SymmetricProperty::true]] }}&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:TemplateCode</title>
+    <id>1794</id>
+    <revision>
+      <id>37584</id>
+      <timestamp>2011-03-22T20:49:05Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>sep=_</comment>
+      <text xml:space="preserve">&lt;nowiki&gt;[[Category:&lt;/nowiki&gt;{{{1|}}}&lt;nowiki&gt;]]{{&lt;/nowiki&gt;
+InformboxStart|{{{1|}}}&lt;nowiki&gt;}}&lt;/nowiki&gt;{{#ask:[[Rdfs:domain::Category:{{{1|}}}]]|mainlabel=-|?Pagename|?Box order|sort=Box order|format=list|link=none|sep=_|template=InformboxRowCode}}&lt;nowiki&gt;
+|}&lt;/nowiki&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Smw import rdf</title>
+    <id>4395</id>
+    <revision>
+      <id>33822</id>
+      <timestamp>2011-01-22T07:07:02Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>rest from feature table</comment>
+      <text xml:space="preserve">http://www.w3.org/1999/02/22-rdf-syntax-ns#
+ datatype|Type:String
+ type|Type:Page
+ li|Type:Page
+ first|Type:Page
+ rest|Type:Page
+ _1|Type:Page
+ _2|Type:Page
+ _3|Type:Page
+ _4|Type:Page</text>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Smw import rdfs</title>
+    <id>4397</id>
+    <revision>
+      <id>33825</id>
+      <timestamp>2011-01-22T07:12:16Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>clean</comment>
+      <text xml:space="preserve">http://www.w3.org/2000/01/rdf-schema#
+ label|Type:String
+ comment|Type:Page
+ seeAlso|Type:Page
+ isDefinedby|Type:Page
+ domain|Type:Page
+ range|Type:Page
+ subClassOf|Type:Page
+ subPropertyOf|Type:Page</text>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Smw import owl</title>
+    <id>4398</id>
+    <revision>
+      <id>33892</id>
+      <timestamp>2011-01-22T10:00:45Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>SymmetricProperty|Category</comment>
+      <text xml:space="preserve">http://www.w3.org/2002/07/owl#
+ inverseOf|Type:Page
+ SymmetricProperty|Category
+ sameAs|Type:Page
+ equivalentClass|Type:Page
+ equivalentProperty|Type:Page
+ onProperty|Type:Page
+ hasValue|Type:Page
+ someValuesFrom|Type:Page
+ allValuesFrom|Type:Page
+ cardinality|Type:Page
+ minCardinality|Type:Page
+ maxCardinality|Type:Page
+ unionOf|Type:Page
+ intersectionOf|Type:Page
+ oneOf|Type:Page
+ complementOf|Type:Page
+ imports|Type:Page</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:ShowValName</title>
+    <id>4647</id>
+    <revision>
+      <id>37630</id>
+      <timestamp>2011-03-23T11:41:44Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>:: -&gt; :</comment>
+      <text xml:space="preserve">&lt;includeonly&gt;{{#ask:[[Property:{{{1|}}}]]|?{{{2|}}}|link=none|headers=hide|template=JustName}}&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:ShowValTxt</title>
+    <id>4646</id>
+    <revision>
+      <id>37590</id>
+      <timestamp>2011-03-22T21:01:34Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>adapt with link=none</comment>
+      <text xml:space="preserve">&lt;includeonly&gt;{{#ask:[[Property:{{{1}}}]]|?{{{2}}}|link=none|headers=hide}}&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:FormXML</title>
+    <id>4642</id>
+    <revision>
+      <id>37532</id>
+      <timestamp>2011-03-22T10:15:35Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>copy form row</comment>
+      <text xml:space="preserve">{{#if:{{{2|}}}|{{FormRowHead|{{{2|}}}}}{{FormRowRange|{{{2|}}}}}}}}}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:OntoXMLClass</title>
+    <id>4643</id>
+    <revision>
+      <id>37578</id>
+      <timestamp>2011-03-22T20:32:22Z</timestamp>
+      <contributor>
+        <username>WikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>all levels &lt;html&gt; alt</comment>
+      <text xml:space="preserve">&lt;html&gt;&lt;page&gt;
+&lt;title&gt;Template:&lt;/html&gt;{{{1|}}}&lt;html&gt;&lt;/title&gt;
+&lt;revision&gt;&lt;timestamp&gt;=2011-01-25T08:23:30Z&lt;/timestamp&gt;
+&lt;contributor&gt;
+&lt;username&gt;WikiSysop&lt;/username&gt;
+&lt;id&gt;1&lt;/id&gt;
+&lt;/contributor&gt;
+&lt;comment&gt;import from autogen SCISimport&lt;/comment&gt;
+&lt;text xml:space=&quot;preserve&quot;&gt;&lt;/html&gt;{{TemplateCode|{{{1|}}}}}&lt;html&gt;&lt;/text&gt;
+&lt;/revision&gt;
+&lt;/page&gt;
+&lt;page&gt;
+&lt;title&gt;Form:&lt;/html&gt;{{{1|}}}&lt;html&gt;&lt;/title&gt;
+&lt;revision&gt;&lt;timestamp&gt;=2011-01-25T08:23:30Z&lt;/timestamp&gt;
+&lt;contributor&gt;
+&lt;username&gt;WikiSysop&lt;/username&gt;
+&lt;id&gt;1&lt;/id&gt;
+&lt;/contributor&gt;
+&lt;comment&gt;import from autogen SCISimport&lt;/comment&gt;
+&lt;text xml:space=&quot;preserve&quot;&gt;&lt;/html&gt;{{FormCode|{{{1|}}}}}&lt;html&gt;
+&lt;/text&gt;
+&lt;/revision&gt;
+&lt;/page&gt;&lt;/html&gt;</text>
+    </revision>
+  </page>
+</mediawiki>
