@@ -9,16 +9,17 @@ EOT;
 }
  
 $wgExtensionCredits['specialpage'][] = array(
-        'name' => 'OWLwikiForms',
-        'author' => 'Lloyd Rutledge',
-        'url' => 'http://icommas.ou.nl/lru/OWLwikiForms/',
-        'description' => 'RDF(S)/OWL-based forms for RDF export and wiki interface generation',
-        'descriptionmsg' => 'OWL Wiki Forms',
-        'version' => '0.1.2',
+        'name'           => 'OWL Wiki Forms',
+        'author'         => 'Lloyd Rutledge',
+        'url'            => 'http://is.cs.ou.nl/OWF',
+        'description'    => 'RDF(S)/OWL-based forms for RDF export and wiki interface generation',
+        'descriptionmsg' => 'owlwikiforms', // Thanks to Cameron Angus McLean
+        'version'        => '0.2.1',        // Thanks to Tobias Käfer
 );
  
 $dir = dirname(__FILE__) . '/';
- 
-$wgAutoloadClasses['SpecialOWLwikiForms'] = $dir . 'SpecialOWLwikiForms.php'; # Location of the SpecialOWLwikiForms class (Tell MediaWiki to load this file)
-$wgExtensionMessagesFiles['OWLwikiForms'] = $dir . 'OWLwikiForms.i18n.php'; # Location of a messages file (Tell MediaWiki to load this file)
-$wgSpecialPages['OWLwikiForms'] = 'SpecialOWLwikiForms'; # Tell MediaWiki about the new special page and its class name
+
+// File location bug found by Cameron Angus McLean
+$wgAutoloadClasses        ['SpecialOWLwikiForms'] = $dir . '/SpecialOWLwikiForms.php' ; # Location of the SpecialOWLwikiForms class (Tell MediaWiki to load this file)
+$wgExtensionMessagesFiles ['OWLwikiForms'       ] = $dir . '/OWLwikiForms.i18n.php'   ; # Location of a messages file (Tell MediaWiki to load this file)
+$wgSpecialPages           ['OWLwikiForms'       ] = 'SpecialOWLwikiForms'             ; # Tell MediaWiki about the new special page and its class name
